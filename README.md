@@ -15,8 +15,9 @@ Project tools:
 Data Set
 Amazon reviews dataset: https://registry.opendata.aws/amazon-reviews/
 Documentation: https://s3.amazonaws.com/amazon-reviews-pds/readme.html
+
 We will using parquet version of the dataset in order to reduce storage requirements on AWS
 EMR and to speed up processing and analytics.
-The dataset is partitioned by product category, here is the subset of the partitions.
+The dataset is partitioned by product category.
 
 Refer to the Project Report for the analysis part. 
